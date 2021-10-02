@@ -342,12 +342,14 @@ export const command: Command = {
 
 <img src='https://i.imgur.com/zZzecF8.png'></img>
 
-**13.** Último paso, ¿Recuerdas el archivo **index.ts** vacío, a la altura del **config.json**? Pues dentro colocaremos lo siguiente:
+**13.** ¿Recuerdas el archivo **index.ts** vacío, a la altura del **config.json**? Pues dentro colocaremos lo siguiente:
 
 ```ts
 import Client from "./Client";
 new Client().init();
 ```
+
+**14.** Por último, abre nuevamente la terminal con **Ctrl + Ñ**, y ejecuta **npm start**. El bot debería iniciar correctamente.
 
 Si hiciste todos los pasos correctamente, el bot debería de iniciar sin problemas.
 Hasta aquí llega esta guía para usar TypeScript para un bot de Discord, espero te haya servido :D
