@@ -75,9 +75,11 @@ MONGO=mongodb+srv://user:password@testdatabase.j9pz9.mongodb.net/myFirstDatabase
 
 ```json
 {
-  "prefix": "!" //Puedes colocar el prefix que desees.
+  "prefix": "!"
 }
 ```
+
+Puedes colocar el prefix que gustes.
 
 El **index.ts** lo podemos dejar vacío sin problemas, luego iremos a ello.
 
